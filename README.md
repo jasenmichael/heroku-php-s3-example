@@ -4,8 +4,8 @@
 
 
 ```
-git clone $repo
-cd $repo
+git clone https://github.com/jasenmichael/heroku-php-s3-example.git
+cd heroku-php-s3-example
 
 heroku create
 ## set heroku env 
