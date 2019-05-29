@@ -32,7 +32,6 @@ $bucket = getenv('S3_BUCKET') ?: die('No "S3_BUCKET" config var in found in env!
         <input name="userfile" type="file"><input type="submit" value="Upload">
     </form>
 
-    <img src="https://s3.us-east-2.amazonaws.com/gb-resident-files/bamboo-wind-chimes-stock-photograph_csp61007398.jpg" alt="">
 </body>
 
 </html>
