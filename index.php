@@ -26,5 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['userfile']) && $_FILES
         <form enctype="multipart/form-data" action="<?=$_SERVER['PHP_SELF']?>" method="POST">
             <input name="userfile" type="file"><input type="submit" value="Upload">
         </form>
+
+        <img src="https://s3.us-east-2.amazonaws.com/gb-resident-files/bamboo-wind-chimes-stock-photograph_csp61007398.jpg" alt="">
     </body>
 </html>
